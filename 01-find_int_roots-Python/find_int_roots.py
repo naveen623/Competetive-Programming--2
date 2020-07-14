@@ -13,8 +13,8 @@ def fun_find_int_roots(a, b, c):
             root1 = -(b) / 2 * a
             root2 = -(b) / 2 * a
       else:
-            root1 = (-b + math.sqrt(d)) / 2 * a
-            root2 = (-b - math.sqrt(d)) / 2 * a
+            root1 = (-b - math.sqrt(d)) / 2 * a
+            root2 = (-b + math.sqrt(d)) / 2 * a
       return root1, root2
 
 
