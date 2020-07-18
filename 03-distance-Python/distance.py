@@ -4,7 +4,9 @@
 # and returns the distance between those points as a int.
 
 import math
+
 def fun_distance(x1, y1, x2, y2):
-    	return math.sqrt(math.pow(x2 - x1, 2) + math.pow(y2 - y1, 2) * 1.0)
-	# your code goes here
-	# return 0
+      distance = math.sqrt((x1 - x2)**2 + (y1 - y2)**2)
+      return math.floor(distance)
+
+    	# return math.sqrt(math.pow(x2 - x1, 2) + math.pow(y2 - y1, 2) * 1.0)
