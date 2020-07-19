@@ -12,6 +12,6 @@ def fun_pascaltrianglevalue(row, col):
       if(col > row):
             return 0
       else:
-            return math.factorial(row) / math.factorial(col) * math.factorial(row - col)
+            return math.factorial(row) / (math.factorial(col) * math.factorial(row - col))
     			
 	# return 1
