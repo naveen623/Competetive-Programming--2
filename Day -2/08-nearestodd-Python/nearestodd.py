@@ -12,7 +12,9 @@ def fun_nearestodd(n):
             return round(n)
       else:
             return round((n - (n % 2) + 1))
+            
 print(fun_nearestodd(14.2))
+print(fun_nearestodd(16.5))
 	# return 0
 
 
