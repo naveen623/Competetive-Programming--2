@@ -15,6 +15,10 @@ def fun_hasnoprimes(l):
                   if is_prime(j):
                         return False
       return True
+
+print(fun_hasnoprimes([[12,4,6],[8,12,14],[6,18]]))
+# print(fun_hasnoprimes([[3,7]]))
+
     	
 	# return True
 
